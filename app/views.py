@@ -15,7 +15,7 @@ def home(request):
     if request.user.is_authenticated:
         user = request.user
         form = TODOForm()
-        todos = TODO.objects.filter(user = user).order_by('priority')
+        todos = TODO.objects.filter(user = user).order_by('-priority')
         return render(request , 'index.html' , context={'form' : form , 'todos' : todos})
 
 def login(request):
