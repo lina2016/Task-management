@@ -53,8 +53,8 @@
                   <td>{{forloop.counter}}</td>
                   <td>{{todo.title}}</td>
                   <td>
-                    {% if todo.status == 2 %}Completed
-                    <span style="color: green"></span>
+                    {% if todo.status == 2 %}
+                    <span style="color: green">Completed</span>
                     {% elif todo.status == 1 %}
                     <span style="color: blue">In Progress</span>
                     {%else%}
