@@ -1,4 +1,5 @@
-Task- Management
+A simple Task- Management app built with django
+
 -User registaion is required to manage tasks operations
 -After SignUp done, login is required
 -With Logged in User, all task related operations Add New, Edit, Delete can be done
