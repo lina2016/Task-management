@@ -2,6 +2,7 @@ A simple Task- Management app built with django
 
 
 Setup
+
 To get this repository, run the following command inside your git enabled terminal
 
 $ git clone https://github.com/lina2016/Task-management.git
