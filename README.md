@@ -1,7 +1,7 @@
 A simple Task- Management app built with django
 
 
-Setup
+<b>Setup</b>
 
 To get this repository, run the following command inside your git enabled terminal
 
@@ -25,10 +25,15 @@ $ python manage.py runserver
 Once the server is hosted, head over to http://127.0.0.1:8000/ for the App.
 
 Afre opening the app on browser:
+
 -User registaion is required to manage tasks operations
+
 -After SignUp done, login is required
+
 -With Logged in User, all task related operations Add New, Edit, Delete can be done
+
 -Admin area by created superadmin 
+
 -User can only view the list of tasks which he has created and perform operations only on it
 
 
